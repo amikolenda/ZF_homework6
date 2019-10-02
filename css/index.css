@@ -1,0 +1,144 @@
+*{
+	margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+}
+body{
+    position: relative;
+    background-color: white;
+}
+header{
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    background-color: white;
+}
+#headerWrapper{
+    position: absolute;
+    top: 20px; 
+    left: 200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+#mainLogo img{
+    height: 50px;
+}
+#mainNav {
+    position: absolute;
+    height: 50px;
+}
+#mainNav ul{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 100%;
+    list-style: none;
+    margin-left: 4%;
+}
+#mainNav ul li{
+    padding-top: 3%;
+    width: 100px;
+}
+#mainNav #active {
+    border-bottom: 1px solid #e6a519;
+}
+a{
+    text-decoration: none;
+    color: gray;
+    cursor: pointer;
+    font-size: 1em;
+}
+a:visited{
+    color: gray;
+}
+#background{
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    height: 500px;
+    background-image: url("../img/background.jpg");
+    background-size: 100% 500px;
+    background-repeat: no-repeat;
+}
+#backgroundDiv{
+    position: absolute;
+    width: 400px;
+    left: 200px;
+}
+p{
+    font-size: 0.9em;
+    margin: 4%;
+}
+h1{
+    margin: 4%;
+    margin-top: 8%;
+    font-size: 1.9em;
+}
+button{
+    border-radius: 20px;
+    border: 1px solid #e6a519;
+    color: white;
+    background-color: #e6a519;
+    height: 40px;
+    width: 200px;
+}
+#who{
+    position: absolute;
+    top: 610px;
+    left: 200px;
+    width: 100%;
+    height: 50px;
+    padding-top: 1%; 
+}
+#who h4{
+    font-size: 1em;
+    color: gray;
+}
+#content{
+    position: absolute;
+    top: 650px;
+    left: 200px;
+    width: 900px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+#content p{
+    color: gray;
+}
+hr{
+    position: absolute;
+    margin-top: 5px;
+    width:900px; 
+    height:1px; 
+    background: gray; 
+}
+h4{
+    font-size: 1.1em;
+    color: gray;
+}
+.contentGroup{
+    width: 300px;
+}
+.contentGroup img{
+    width: 30px;
+    margin-bottom: 5%;
+}
+.contentGroup a{
+    color: #e6a519;
+    font-size: 0.8;
+}
+.contentGroup a:visited{
+    color: #e6a519;
+}
+.contentGroup p{
+    margin: 0;
+    font-size: 0.8;
+}
